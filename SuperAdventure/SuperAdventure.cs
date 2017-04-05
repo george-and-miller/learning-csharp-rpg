@@ -24,7 +24,6 @@ namespace SuperAdventure
 
             Location location = new Location(1, "Home", "This is your house.");
 
-
             lblHitPoints.Text = _player.CurrentHitPoints.ToString();
             lblGold.Text = _player.Gold.ToString();
             lblExperience.Text = _player.ExperiencePoints.ToString();
