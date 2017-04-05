@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="4ed1c187-a45e-4195-8c56-67f962b15294" ChangeDateTime="04/05/2017 05:28:31">
+    <Property Name="ElementName" Value="[dbo].[SavedGame].[Godl]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SavedGame]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Gold" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="564b92d6-373f-496e-8ec8-de35790a6f2b" ChangeDateTime="04/05/2017 05:33:23">
+    <Property Name="ElementName" Value="[dbo].[Inventory].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Inventory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="InventoryItemID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b38b42e7-dfbd-4da2-96ac-8fffedca5be9" ChangeDateTime="04/05/2017 05:34:16">
+    <Property Name="ElementName" Value="[dbo].[Quest].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Quest]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="QuestID" />
+  </Operation>
+</Operations>
