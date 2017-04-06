@@ -61,7 +61,6 @@
             this.label1.Size = new System.Drawing.Size(110, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Hit Points:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -134,7 +133,6 @@
             this.label5.Size = new System.Drawing.Size(138, 25);
             this.label5.TabIndex = 9;
             this.label5.Text = "Select Action";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // cboWeapons
             // 
@@ -162,7 +160,7 @@
             this.btnUseWeapon.TabIndex = 12;
             this.btnUseWeapon.Text = "Use";
             this.btnUseWeapon.UseVisualStyleBackColor = true;
-            this.btnUseWeapon.Click += new System.EventHandler(this.button1_Click);
+            this.btnUseWeapon.Click += new System.EventHandler(this.btnUseWeapon_Click);
             // 
             // btnUsePotion
             // 
@@ -173,6 +171,7 @@
             this.btnUsePotion.TabIndex = 13;
             this.btnUsePotion.Text = "Use";
             this.btnUsePotion.UseVisualStyleBackColor = true;
+            this.btnUsePotion.Click += new System.EventHandler(this.btnUsePotion_Click);
             // 
             // btnNorth
             // 
@@ -183,6 +182,7 @@
             this.btnNorth.TabIndex = 14;
             this.btnNorth.Text = "North";
             this.btnNorth.UseVisualStyleBackColor = true;
+            this.btnNorth.Click += new System.EventHandler(this.btnNorth_Click);
             // 
             // btnSouth
             // 
@@ -193,6 +193,7 @@
             this.btnSouth.TabIndex = 15;
             this.btnSouth.Text = "South";
             this.btnSouth.UseVisualStyleBackColor = true;
+            this.btnSouth.Click += new System.EventHandler(this.btnSouth_Click);
             // 
             // btnWest
             // 
@@ -203,6 +204,7 @@
             this.btnWest.TabIndex = 16;
             this.btnWest.Text = "West";
             this.btnWest.UseVisualStyleBackColor = true;
+            this.btnWest.Click += new System.EventHandler(this.btnWest_Click);
             // 
             // btnEast
             // 
@@ -213,6 +215,7 @@
             this.btnEast.TabIndex = 17;
             this.btnEast.Text = "East";
             this.btnEast.UseVisualStyleBackColor = true;
+            this.btnEast.Click += new System.EventHandler(this.btnEast_Click);
             // 
             // rtbLocation
             // 
@@ -222,7 +225,6 @@
             this.rtbLocation.Size = new System.Drawing.Size(360, 105);
             this.rtbLocation.TabIndex = 18;
             this.rtbLocation.Text = "";
-            this.rtbLocation.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // rtbMessages
             // 
@@ -303,8 +305,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -325,6 +325,7 @@
         private System.Windows.Forms.RichTextBox rtbMessages;
         private System.Windows.Forms.DataGridView dgvInventory;
         private System.Windows.Forms.DataGridView dgvQuests;
+        private System.Windows.Forms.Label label1;
     }
 }
 
